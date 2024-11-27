@@ -1,16 +1,15 @@
 #include<stdio.h>
 int main()
 {
-	int n,a[5];
-	printf("nhap n :");
-	scanf("%d",&n);
-	for(int i=0;i<n ; i++)
+	int a[5];
+	printf("nhap phan tu \n");
+	for(int i=0;i<5; i++)
 	{
 		printf("Nhap a[%d] : ",i);
 		scanf("%d",&a[i]);
 	}
-printf("mang vua nhap : ");
-for(int i=0;i<n;i++)
+printf("mang vua nhap a[5]: ");
+for(int i=0;i<5;i++)
 {
 	printf(" %d ",a[i]);
 }
